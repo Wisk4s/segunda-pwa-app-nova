@@ -10,15 +10,13 @@
     <link rel="icon" href="/images/trucadas.png"/>
 
     <link rel='stylesheet' type='text/css' media='screen' href='/css/css.css'>
-    <script src='/js/js.js'></script>
 </head>
 <body>
     <h1 class="titulo">Contador de Truco</h1>
     
     <div class="equipe1" id="equipe1Div">
-        <label for="equipe1">Nome da Equipe 1: </label>
+        <label for="equipe1" class="nome1">Nome da Equipe 1: </label>
         <input type="text" id="equipe1Input" placeholder="Equipe 1">
-        <button id="equipe1NomeButton">Atualizar</button><br>
         
         <button id="equipe1Mais1" class="addpt">+1</button>
         <button id="equipe1Menos1" class="addpt">-1</button>
@@ -27,26 +25,27 @@
         <button id="equipe1Mais9" class="addpt">+9</button>
         <button id="equipe1Mais12" class="addpt">+12</button>
         
-        <p>Pontos: <span id="pontosEquipe1">0</span></p>
-        <p>Vitórias: <span id="vitoriasEquipe1">0</span></p>
+        <p class="pontassos">Pontos: <span id="pontosEquipe1">0</span></p>
+        <p class="vitorinhas">Vitórias: <span id="vitoriasEquipe1">0</span></p>
     </div>
     
     <div class="equipe2" id="equipe2Div">
-        <label for="equipe2">Nome da Equipe 2: </label>
+        <label for="equipe2" class="nome2">Nome da Equipe 2: </label>
         <input type="text" id="equipe2Input" placeholder="Equipe 2">
-        <button id="equipe2NomeButton">Atualizar</button><br>
         
         <button id="equipe2Mais1" class="addpt">+1</button>
         <button id="equipe2Menos1" class="addpt">-1</button>
         <button id="equipe2Mais3" class="addpt">+3</button>
         <button id="equipe2Mais6" class="addpt">+6</button>
         <button id="equipe2Mais9" class="addpt">+9</button>
-        <button id="equipe2Mais12" class="addpt">+12</button>
+        <button id="equipe2Mais12" class="addpt" class="doze">+12</button>
         
-        <p>Pontos: <span id="pontosEquipe2">0</span></p>
-        <p>Vitórias: <span id="vitoriasEquipe2">0</span></p>
+        <p class="pontassos">Pontos: <span id="pontosEquipe2">0</span></p>
+        <p class="vitorinhas">Vitórias: <span id="vitoriasEquipe2">0</span></p>
     </div>
     
     <button id="zerarContador" class="zerar" >Zerar Contador</button>
+
+    <script src='/js/js.js'></script>
 </body>
 </html>
