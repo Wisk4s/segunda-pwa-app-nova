@@ -1,0 +1,81 @@
+body{
+    font-family: monospace;
+    margin-top: 150px;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.addpt{
+    background-color: white;
+    border: none;
+    box-shadow: rgb(167, 167, 167) 1.5px 1.5px 1px 1.5px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: auto;
+    cursor: pointer;
+}
+
+input{
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: rgb(167, 167, 167) 1.5px 1.5px 1px 1.5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.equipe1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 86, 255);
+    border: 1px solid rgb(86, 86, 255);
+    box-shadow: rgb(55, 55, 164) 4px 4px 1px 1px;
+    width: 75%;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: monospace;
+}
+
+.equipe2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 86, 86);
+    border: 1px solid rgb(255, 86, 86);
+    box-shadow: rgb(176, 59, 59) 4px 4px 1px 1px;
+    width: 75%; 
+    margin-left: 140px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: monospace;
+}
+
+.zerar{
+    border: 1px solid white;
+    background-color: white;
+    font-family: monospace;
+    box-shadow: rgb(132, 132, 132) 1.5px 1.5px 1px 1.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+button{
+    font-family: monospace;
+}
+
+
+
+
+
